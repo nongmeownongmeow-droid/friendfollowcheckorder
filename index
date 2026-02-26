@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friend Follow | Official Portal</title>
+
+<style>
+body{
+  margin:0;
+  font-family:'Segoe UI',Arial;
+  background:linear-gradient(135deg,#eef2ff,#f3e8ff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  background:#fff;
+  width:380px;
+  padding:40px;
+  border-radius:24px;
+  box-shadow:0 25px 60px rgba(0,0,0,.08);
+  text-align:center;
+}
+
+.logo{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin:auto;
+  background:linear-gradient(90deg,#8fd3ff,#caa6ff,#ff9ed6);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+  font-weight:bold;
+  color:white;
+  margin-bottom:20px;
+}
+
+h1{
+  margin:0;
+  font-size:22px;
+}
+
+.secure{
+  margin-top:10px;
+  font-size:13px;
+  color:#16a34a;
+  font-weight:600;
+}
+
+button{
+  width:100%;
+  margin-top:25px;
+  padding:14px;
+  border:none;
+  border-radius:14px;
+  cursor:pointer;
+  background:linear-gradient(90deg,#8fd3ff,#caa6ff,#ff9ed6);
+  color:white;
+  font-weight:600;
+  font-size:15px;
+  transition:.2s;
+  box-shadow:0 10px 25px rgba(180,140,255,.3);
+}
+
+button:hover{
+  transform:translateY(-3px);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="logo">FF</div>
+  <h1>Friend Follow Official</h1>
+  <div class="secure">🔒 Secure Order Verification System</div>
+
+  <button onclick="go()">เข้าสู่หน้าเช็คออเดอร์</button>
+</div>
+
+<script>
+function go(){
+  window.location.href="https://script.google.com/macros/s/AKfycbx6ERKduhNJF_zLOkeMErCuS7t5SPBSw1DoK34VZMUJvapq3Xjp3clbws6SvyFJZiOirw/exec";
+}
+</script>
+
+</body>
+</html>
